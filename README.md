@@ -88,7 +88,6 @@ Empêche le fichier `secu.py` d'être suivi par Git pour protéger le token du b
    - Séparation des responsabilités dans différents fichiers (`main.py`, `outils.py`, etc.).
    - Utilisation de dictionnaires pour mapper les salons à leurs modèles de messages.
 
-
 ## Dépendances
 
 Les dépendances nécessaires pour exécuter ce projet sont listées dans le fichier `requirements.txt` :
@@ -97,6 +96,7 @@ Les dépendances nécessaires pour exécuter ce projet sont listées dans le fic
 - `py-cord==2.4.1`
 - `asyncio`
 - `python-dotenv`
+- `os`
 
 ## Comment exécuter le bot
 
