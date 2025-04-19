@@ -51,20 +51,11 @@ Le bot utilise des commandes slash pour une interaction plus intuitive. Voici qu
 ### `main.py`
 Le fichier principal qui contient la logique du bot, y compris les événements, les commandes et les interactions avec Discord.
 
-### `secu.py`
-Contient le token du bot. **Ce fichier est ignoré par Git grâce au `.gitignore` pour des raisons de sécurité.**
-
 ### `outils.py`
 Fournit des modèles de messages et des identifiants de rôles utilisés dans le bot.
 
-### `backup.py`
-Un fichier supplémentaire qui semble contenir une version alternative ou de sauvegarde du bot.
-
-### `version.csv`
-Un fichier vide, probablement destiné à contenir des informations sur les versions du bot.
-
 ### `.gitignore`
-Empêche le fichier `secu.py` d'être suivi par Git pour protéger le token du bot.
+Empêche le fichier d'être suivi par Git pour protéger le token du bot.
 
 ## Ce que vous avez fait
 
@@ -74,7 +65,7 @@ Empêche le fichier `secu.py` d'être suivi par Git pour protéger le token du b
    - Gestion des permissions et des rôles pour sécuriser les commandes.
 
 2. **Sécurisation** :
-   - Stockage du token dans un fichier séparé (`secu.py`) et ajout de ce fichier au `.gitignore`.
+   - Stockage du token dans l'environnment et ajout de ce fichier au `.gitignore`.
 
 3. **Automatisation** :
    - Suppression automatique des messages non conformes dans certains salons.
