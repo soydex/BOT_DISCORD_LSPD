@@ -1,10 +1,8 @@
-import discord, random, time, csv
+import discord, random, time
 import secu, outils
 from discord.ext import commands
 from discord.commands import Option
 import asyncio
-
-
 
 while True :
     bot = commands.Bot(command_prefix=commands.when_mentioned_or('.'), intents=discord.Intents().all())
