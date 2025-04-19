@@ -1,2 +1,26 @@
 secu.py
 backup/backup.py
+.env
+*.pyc
+__pycache__/
+
+
+# Fichiers sensibles
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environnements virtuels
+env/
+venv/

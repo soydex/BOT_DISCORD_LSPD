@@ -1,12 +1,17 @@
-import discord, random, time
+import discord, random, time,os
+from dotenv import load_dotenv
 import secu, outils
 from discord.ext import commands
 from discord.commands import Option
 import asyncio
 
+
+
+
 while True :
+    load_dotenv()
     bot = commands.Bot(command_prefix=commands.when_mentioned_or('.'), intents=discord.Intents().all())
-    token = secu.token
+    token = os.getenv("DISCORD_TOKEN")
 
     @bot.event
     async def on_ready():
