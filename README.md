@@ -1,4 +1,4 @@
-# BOT Discord LSPD
+# BOT Discord LSPD (last update - 2023)
 
 Conçu pour la faction LSPD du serveur GTA RP FIVE M | Flashworld en 2023.
 Ce projet est un bot Discord conçu pour gérer diverses fonctionnalités liées à un serveur Discord de type "Los Santos Police Department" (LSPD). Le bot est développé en Python en utilisant la bibliothèque `discord.py`.
